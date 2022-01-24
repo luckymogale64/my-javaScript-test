@@ -1,0 +1,35 @@
+body {
+    text-align: center;}
+
+    navbar {
+        margin: 70px;
+        border: 1px solid #4c56af;
+      }
+      nav {
+        text-align: center;
+        width: 100%;
+        height: 4rem;
+        position: fixed;
+        top: 0;
+        background-image: linear-gradient(
+          to right top,
+          #1473e6,
+          #1875e7,
+          #1c78e8,
+          #1f7ae8,
+          #237ce9,
+          #3684eb,
+          #458ced,
+          #5394ee,
+          #6da4f0,
+          #86b3f1,
+          #9ec3f2,
+          #b7d2f3
+        );
+        color: var(--whiteGray);
+        display: flex;
+        padding: 0 2rem;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
+      }
