@@ -1,11 +1,18 @@
 
 function SUBMIT() {
-  const Email = document.getElementById("Email").value;
-  const Password = document.getElementById("Password`")
-  location.href = "./home.html"; 
-    alert("Email or Password is incorrect");
-     if (Email == "") {
-    alert("name can't be empty");
+  const Email = document.getElementById("Email");
+  const Password = document.getElementById("Password");
+   
+if (email == "warning" && password == "warning") {
+     if (Email == "")
+    alert("email can't be empty");
     return;
+  }
+
+  if (Password == "") {
+    alert("password can't be empty");
+    return;
+window.location.href = "./home.html";
+
   }
 }
