@@ -1,5 +1,6 @@
 
 function SUBMIT() {
+  window.location.href = "./home.html";
   const Email = document.getElementById("Email");
   const Password = document.getElementById("Password");
    
@@ -12,7 +13,8 @@ if (email == "warning" && password == "warning") {
   if (Password == "") {
     alert("password can't be empty");
     return;
-window.location.href = "./home.html";
+    
+    
 
   }
 }

@@ -1,177 +1,22 @@
-const employees = [
-  {
-    address: {
-      geolocation: { lat: "-37.3159", long: "81.1496" },
-      city: "johannesburg",
-      street: "commissioner",
-      number: 7682,
-      zipcode: "12926-3874",
-    },
-    id: 1,
-    email: "hardy@gmail.com",
-    username: "dylut2000",
-    password: "m38rmF$",
-    name: { firstname: "hardy", lastname: "lutula" },
-    phone: "1-570-236-7033",
-    salary: 1200,
-  },
-  {
-    address: {
-      geolocation: { lat: "-37.3159", long: "81.1496" },
-      city: "pretoria",
-      street: "commissioner",
-      number: 7267,
-      zipcode: "12926-3874",
-    },
-    id: 2,
-    email: "william@gmail.com",
-    username: "rabopape",
-    password: "83r5^_",
-    name: { firstname: "rabopape", lastname: "william" },
-    phone: "1-570-236-7033",
-    salary: 1800,
-  },
-  {
-    address: {
-      geolocation: { lat: "40.3467", long: "-30.1310" },
-      city: "pretoria",
-      street: "commissioner",
-      number: 86,
-      zipcode: "29567-1452",
-    },
-    id: 3,
-    email: "kevin@gmail.com",
-    username: "kevinryan",
-    password: "kev02937@",
-    name: { firstname: "kevin", lastname: "ryan" },
-    phone: "1-567-094-1345",
-    salary: 2000,
-  },
-  {
-    address: {
-      geolocation: { lat: "50.3467", long: "-20.1310" },
-      city: "johannesburg",
-      street: "commissioner",
-      number: 6454,
-      zipcode: "98234-1734",
-    },
-    id: 4,
-    email: "don@gmail.com",
-    username: "donero",
-    password: "ewedon",
-    name: { firstname: "don", lastname: "romer" },
-    phone: "1-765-789-6734",
-    salary: 1500,
-  },
-  {
-    address: {
-      geolocation: { lat: "40.3467", long: "-40.1310" },
-      city: "pretoria",
-      street: "stanley",
-      number: 245,
-      zipcode: "80796-1234",
-    },
-    id: 5,
-    email: "john@gmail.com",
-    username: "john",
-    password: "jklg*_56",
-    name: { firstname: "john", lastname: "powell" },
-    phone: "1-956-001-1945",
-    salary: 2000,
-  },
-  {
-    address: {
-      geolocation: { lat: "20.1677", long: "-10.6789" },
-      city: "johannesburg",
-      street: "stanley",
-      number: 124,
-      zipcode: "12346-0456",
-    },
-    id: 6,
-    email: "david@gmail.com",
-    username: "david_r",
-    password: "3478*#54",
-    name: { firstname: "david", lastname: "russell" },
-    phone: "1-678-345-9856",
-    salary: 3000,
-  },
-  {
-    address: {
-      geolocation: { lat: "10.3456", long: "20.6419" },
-      city: "durban",
-      street: "stanley",
-      number: 1342,
-      zipcode: "96378-0245",
-    },
-    id: 7,
-    email: "dylan@gmail.com",
-    username: "dylan1234",
-    password: "f238&@*$",
-    name: { firstname: "dylan", lastname: "rabopape" },
-    phone: "1-123-943-0563",
-    salary: 5000,
-  },
-  {
-    address: {
-      geolocation: { lat: "50.3456", long: "10.6419" },
-      city: "pretoria",
-      street: "stanley",
-      number: 1342,
-      zipcode: "96378-0245",
-    },
-    id: 8,
-    email: "baholo@gmail.com",
-    username: "json",
-    password: "William56$hj",
-    name: { firstname: "baholo", lastname: "mokoena" },
-    phone: "1-478-001-0890",
-    salary: 5500,
-  },
-  {
-    address: {
-      geolocation: { lat: "40.12456", long: "20.5419" },
-      city: "durban",
-      street: "stanley",
-      number: 345,
-      zipcode: "96378-0245",
-    },
-    id: 9,
-    email: "katlego@gmail.com",
-    username: "kat",
-    password: "kfejk@*_",
-    name: { firstname: "katlego", lastname: "victor" },
-    phone: "1-678-456-1934",
-    salary: 4000,
-  },
-  {
-    address: {
-      geolocation: { lat: "30.24788", long: "-20.545419" },
-      city: "johannesburg",
-      street: "stanley",
-      number: 526,
-      zipcode: "10256-4532",
-    },
-    id: 10,
-    email: "jimmie@gmail.com",
-    username: "jimmie_k",
-    password: "klein*#%*",
-    name: { firstname: "jimmie", lastname: "klein" },
-    phone: "1-104-001-4567",
-    salary: 5000,
-  },
+let people = [
+  { name: 'hardy', age: 10, favouriteColor: 'blue', hairStyle: 'dread lock' },
+  { name: 'vusumuzi', age: 21, favouriteColor: 'red', hairStyle: 'chiskop' },
+  { name: 'wandile', age: 65, favouriteColor: 'blue', hairStyle: 'chiskop' },
+  { name: 'precious', age: 17, favouriteColor: 'pink', hairStyle: 'braid' },
+  { name: 'andisiwe', age: 90, favouriteColor: 'green', hairStyle: 'afro' },
+  { name: 'mmapaseka', age: 30, favouriteColor: 'black', hairStyle: 'braid' },
+  { name: 'mhlonipheni', age: 20, favouriteColor: 'yellow', hairStyle: 'afro' },
+  { name: 'khumbulani', age: 30, favouriteColor: 'blue', hairStyle: 'afro' },
+  { name: 'sophie', age: 18, favouriteColor: 'grey', hairStyle: 'braid' },
+  { name: 'lucky', age: 32, favouriteColor: 'grey', hairStyle: 'chiskop' },
+  { name: 'sithembiso', age: 32, favouriteColor: 'blue', hairStyle: 'chiskop' },
+  { name: 'happy', age: 18, favouriteColor: 'white', hairStyle: 'twist' },
+  { name: 'selina', age: 26, favouriteColor: 'green', hairStyle: 'chiskop' },
+  { name: 'nkosiphendule', age: 30, favouriteColor: 'white', hairStyle: 'chiskop' },
+  { name: 'mduduzi', age: 30, favouriteColor: 'green', hairStyle: 'chiskop' },
 ];
-
-function search() {
-  let select = document.getElementById("select").value;
-   const display = document.getElementById("display");
-   display.innerHTML = '';
-
- 
-for (let i = 0; i < employees.length; i++) {
-  if (employees[i]. address.street == select) {
-    display.innerHTML += '<p>'+ " street name:" + employees[i].name.firstname + "</li>";
-    
-  }
-}
-
+display.innerHTML=" ";
+/* displaying data */
+for(let i = 0; i < people.length; i++) {
+ document.getElementById("display").innerHTML += '<li>Name: ' + people[i].name + ' Age: ' + people[i].age + '</li>';
 }
